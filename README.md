@@ -11,6 +11,7 @@ download, install and use the models, see the
 | `2017-04-04` | `fr_model` | 0.0.1 | 134 MB | POS Tagging, Dependancy Parsing | [![][dl]][fr_model-0.0.1]
 
 [fr_model-0.0.1]: https://github.com/pagesjaunes/spacy-french-models/releases/download/v0.0.1-alpha/fr_model-0.0.1.tar.gz
+[dl]: http://i.imgur.com/gQvPgr0.png
 
 ## Installation
 ```bash
@@ -31,14 +32,14 @@ doc = nlp("Je voudrais réserver un hôtel à Rennes.")
 for w in doc:
     print("%s\t%s\t%s" % (w, w.tag_, w.dep_))
 
-Je          PRON	nsubj
-voudrais    AUX	    ROOT
-réserver    VERB	ROOT
-un	        DET	    det
-hôtel       NOUN	obj
-à           ADP	    case
-Rennes      PROPN	nmod
-.           PUNCT	punct
+Je          PRON    nsubj
+voudrais    AUX     ROOT
+réserver    VERB    ROOT
+un          DET     det
+hôtel       NOUN    obj
+à           ADP     case
+Rennes      PROPN   nmod
+.           PUNCT   punct
 ```
 
 
