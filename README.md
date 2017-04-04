@@ -8,7 +8,7 @@ download, install and use the models, see the
 ## Releases
 | Date | Model | Version | Size | Description | |
 | --- | --- | --- | --- | -- | --- |
-| `2017-04-04` | `fr_model` | 0.0.1 | 134 MB | POS Tagging, Dependancy Parsing | [![][dl]][fr_model-0.0.1]
+| `2017-04-04` | `fr_model` | 0.0.1 | 134 MB | POS Tagging, Dependency Parsing | [![][dl]][fr_model-0.0.1]
 
 [fr_model-0.0.1]: https://github.com/pagesjaunes/spacy-french-models/releases/download/v0.0.1-alpha/fr_model-0.0.1.tar.gz
 [dl]: http://i.imgur.com/gQvPgr0.png
