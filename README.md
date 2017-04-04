@@ -8,11 +8,13 @@ download, install and use the models, see the
 ## Releases
 | Date | Model | Version | Size | Description | |
 | --- | --- | --- | --- | -- | --- |
-| `2017-04-04` | `fr_model` | 0.0.1 | 86 MB | POS Tagging, Dependancy Parsing | [![][dl]][fr_model-0.0.1]
+| `2017-04-04` | `fr_model` | 0.0.1 | 134 MB | POS Tagging, Dependancy Parsing | [![][dl]][fr_model-0.0.1]
+
+[fr_model-0.0.1]: https://github.com/pagesjaunes/spacy-french-models/releases/download/v0.0.1-alpha/fr_model-0.0.1.tar.gz
 
 ## Installation
 ```bash
-pip install https://github.com/pagesjaunes/spacy-french-models/releases/download/fr_model-0.0.1.tar.gz
+pip install https://github.com/pagesjaunes/spacy-french-models/releases/download/v0.0.1-alpha/fr_model-0.0.1.tar.gz
 
 # set up shortcut link to load installed package as "fr_default"
 python -m spacy link fr_model fr_default --force
@@ -29,14 +31,14 @@ doc = nlp("Je voudrais réserver un hôtel à Rennes.")
 for w in doc:
     print("%s\t%s\t%s" % (w, w.tag_, w.dep_))
 
-Je      	PRON	nsubj
-voudrais	AUX	    ROOT
-réserver	VERB	ROOT
+Je          PRON	nsubj
+voudrais    AUX	    ROOT
+réserver    VERB	ROOT
 un	        DET	    det
-hôtel	    NOUN	obj
-à	        ADP	    case
-Rennes	    PROPN	nmod
-.	        PUNCT	punct
+hôtel       NOUN	obj
+à           ADP	    case
+Rennes      PROPN	nmod
+.           PUNCT	punct
 ```
 
 
