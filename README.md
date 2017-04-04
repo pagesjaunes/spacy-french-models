@@ -31,7 +31,9 @@ nlp = spacy.load('fr_default')
 doc = nlp("Je voudrais réserver un hôtel à Rennes.")
 for w in doc:
     print("%s\t%s\t%s" % (w, w.tag_, w.dep_))
+```
 
+```
 Je          PRON    nsubj
 voudrais    AUX     ROOT
 réserver    VERB    ROOT
