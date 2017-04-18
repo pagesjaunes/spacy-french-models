@@ -1,6 +1,6 @@
 # French models for spaCy
 
-This repository contains [releases](releases) of models for the
+This repository contains [releases](https://github.com/pagesjaunes/spacy-french-models/releases) of models for the
 [spaCy](https://github.com/explosion/spaCy) NLP library. For more info on how to
 download, install and use the models, see the
 [models documentation](https://spacy.io/docs/usage/models).
